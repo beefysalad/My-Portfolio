@@ -14,7 +14,7 @@
 <body>
     <nav class="navbar fixed-top justify-content-center main-nav">
         <div class="main-menu">
-          <a href="#home" class="links">Home</a>
+          <a href="#home" class="links tae">Home</a>
           <a href="#project" class="links">Projects</a>
           <a href="#socials" class="links">Socials</a>
           <a href="#resume" class="links">Resume</a>
@@ -57,7 +57,8 @@
                         <div class="text-container one">
                             A web blog application which allows the users to post and see posts of other users in real time. This is built using express
                             server and is still a work in progress.
-                            <div style="background-color: inherit; color: #64ffda; text-align: right;">Live Demo</div>
+                            <a target="_blank" href="https://blog-app-beefy.herokuapp.com/" style="background-color: inherit; color: #64ffda; text-align: right;">Live Demo</a>
+                            <!-- <div style="background-color: inherit; color: #64ffda; text-align: right;">Live Demo</div> -->
                          </div>
                 </div>
             </div>
@@ -78,7 +79,7 @@
                             A web application that helps in the covid tracing systems of establishments by scanning the qr code of people
                             entering the said establishment. The application notifies the users if they are a possible contact of 
                             covid positive patients.
-                            <div style="background-color: inherit; color: #64ffda; text-align: right;">Live Demo</div>
+                            <a target="_blank" href="https://contact-tracing-osbe.herokuapp.com/" style="background-color: inherit; color: #64ffda; text-align: right;">Live Demo</a>
                          </div>
                 </div>
             </div>
@@ -164,6 +165,36 @@
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
         AOS.init();
+        // const home = document.querySelector('.main-menu').children[0]
+        // const projects = document.querySelector('.main-menu').children[1]
+        // const socials = document.querySelector('.main-menu').children[2]
+        // const resume = document.querySelector('.main-menu').children[3]
+        // home.classList.add('active')
+        // window.addEventListener('scroll',(e)=>{
+        //     console.log(window.scrollY)
+        //     if(window.scrollY<900){
+        //         home.style.backgroundColor="aqua"
+        //         projects.style.backgroundColor="transparent"
+        //         socials.style.backgroundColor="transparent"
+        //         resume.style.backgroundColor="transparent"
+        //     }else if(window.scrollY< 3500 && window.scrollY > 900){
+        //         home.style.backgroundColor="transparent"
+        //         projects.style.backgroundColor="aqua"
+        //         socials.style.backgroundColor="transparent"
+        //         resume.style.backgroundColor="transparent"
+        //     }else if(window.scrollY < 4800 && window.scrollY > 3500 ){
+        //         home.style.backgroundColor="transparent"
+        //         projects.style.backgroundColor="transparent"
+        //         socials.style.backgroundColor="aqua"
+        //         resume.style.backgroundColor="transparent"
+        //     }else if(window.scrollY < 5000 ){
+        //         home.style.backgroundColor="transparent"
+        //         projects.style.backgroundColor="transparent"
+        //         socials.style.backgroundColor="transparent"
+        //         resume.style.backgroundColor="aqua"
+        //     }
+        // })
+
     </script>
 </body>
 </html>

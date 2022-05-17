@@ -38,6 +38,7 @@
 .main-menu a{
     position: relative;  
     padding: 0 10px;
+    transition: 0.2s;
 }
 .main-menu a::after{
     content: "";
@@ -52,10 +53,12 @@
 .links:hover{
     color: #64ffda;
 }
+
 .main-menu a:hover::after,a:focus::after{
     
     width: 100%;
 }
+
 #contents-holder{
     padding-top: 150px;
     padding-bottom: 150px;
